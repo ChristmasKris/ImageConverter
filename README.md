@@ -1,5 +1,7 @@
 # Image Converter
 
+Live demo: https://www.kristianbenko.com/ImageConverter
+
 ## What is this project?
 
 This is a simple, practical web-based image converter that allows users to upload one or multiple images and convert them to a different format (PNG, JPG/JPEG, or WEBP) directly in the browser. The focus is on usability and speed, not on fancy UI or animations (yet!).
