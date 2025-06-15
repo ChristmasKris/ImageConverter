@@ -1,4 +1,4 @@
-# Image Converter – Project Blog
+# Image Converter
 
 ## What is this project?
 
