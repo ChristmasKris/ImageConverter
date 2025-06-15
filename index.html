@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+	<head>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+		<link rel="icon" type="image/x-icon" href="./favicon.ico"/>
+		<title>Image converter</title>
+		<script src="./FontAwesome.min.js"></script>
+		<link rel="stylesheet" type="text/css" href="./general.css"/>
+		<link rel="stylesheet" type="text/css" href="./index.css"/>
+	</head>
+	<body>
+		<input type="file" class="imageInput" accept="image/*" multiple>
+		<div class="dragOverlay">
+			<div class="inner">
+				<span>Drag & drop image(s) here to upload</span>
+			</div>
+		</div>
+		<div class="page">
+			<div class="converter">
+				<h1>Image Converter</h1>
+				<img src="" class="imgPreview"/>
+				<button class="imageInputButton" title="Browse for images">
+					<i class="fa-regular fa-upload"></i>
+					Upload image(s)
+				</button>
+				<div class="queue"></div>
+				<div class="holder">
+					<input type="text" class="nameInput" placeholder="New name for image(s)" title="New image name without extension" maxlength="250"/>
+					<select class="format" title="Convert uploaded images to...">
+						<option value="png">PNG</option>
+						<option value="jpeg">JPG/JPEG</option>
+						<option value="webp">WEBP</option>
+					</select>
+				</div>
+				<button class="convertButton">
+					<i class="fa-regular fa-download"></i>
+					Convert & download
+				</button>
+			</div>
+		</div>
+		<script src="./general.js"></script>
+		<script src="./index.js"></script>
+	</body>
+</html>
